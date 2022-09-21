@@ -4,6 +4,15 @@ A technical test as a frontend developer.
 ## Getting Started 🚀
 Please you can have a look just here: https://mpgc.github.io/GoCo-Website-Task/
 
+###  Responsive Recruiter Company Landing Page 
+
+- Responsive Recruiter Company Page Using HTML CSS & JavaScript
+- Contains animations when scrolling.
+- Includes a dark and light mode.
+- Smooth scrolling in each section.
+- Developed first with the Mobile First methodology, then for desktop.
+- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+
 ## Built with 🛠️
 
 I have used several tools such as:
