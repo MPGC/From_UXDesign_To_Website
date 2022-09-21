@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS style sheet link -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Added Awesome font to show the arrow on the buttons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <title>GoCo Group Careers Page</title>
+</head>
+
+
+<!--===== BODY =====--> 
+<body>
+    <!-- I have added a main container to wrap all the content -->
+    <div class="main__container">
+
+
+<!--===== HEADER =====-->
+    <header>   
+        <!-- I added the logo as a background image -->
+        <a href="#" id="logo"></a>
+        <ul id="header__ul">
+            <li class="header__li"><a href="#">Who we are</a></li>
+            <li class="header__li"><a href="#">#LifeatGoco</a></li>
+            <li class="header__li"><a href="#">What's in it for you</a></li>
+            <li class="header__li"><a href="#">GoFurther Academy</a></li>
+            <li class="header__li"><a href="#">FAQ</a></li>
+        </ul>
+        <a href="#" class="header__btn">View Jobs</a>
+
+        <!-- I added the blocker div to allow the user click anywhere in order to close the hamburger dropdown when shows on small screens -->
+        <div class="blocker" onclick="openCloseNav()"></div>
+
+        <!-- Hamburger menu -->
+        <div class="menu__xs--btn" onclick="openCloseNav()">
+            <div class="menu__xs--lines">
+                <div class="menu__xs--line"></div>
+                <div class="menu__xs--line"></div>
+                <div class="menu__xs--line"></div>	
+            </div>
+            <div class="menu__x">x</div>
+                <p class="menu__x--title">MENU</p>						
+        </div>
+
+        <!-- Extra code for the drop down hamburger menu on small screen sizes -->
+        <div id="header__small">
+            <ul>
+                <li class="header__li--small"><a href="#">Who we are</a></li>
+                <li class="header__li--small"><a href="#">#LifeatGoco</a></li>
+                <li class="header__li--small"><a href="#">What's in it for you</a></li>
+                <li class="header__li--small"><a href="#">GoFurther Academy</a></li>
+                <li class="header__li--small"><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+
+<!--===== MAIN =====-->
+    <main>
+        <!-- Hero image container -->
+        <div class="hero__image--container">
+            <h1>Find your next job with GoCo</h1>
+            <a href="#" class="hero__btn">Go for it
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </a>
+        </div>
+            
+        <!-- The cards section -->
+        <div class="cards__container">
+
+        <!-- 1º Card -->
+        <div class="card__1 card">
+            <div class="card__text">
+                <h1>Join us as we save time and money for people everywhere</h1>
+                <p>Since 2006, we've been disrupting the insurance industry to save millions of people masses of money. We're looking for talented, ambitious and friendly faces to help us achieve our mission. We have a wide range of roles across GoCo as we're constantly growing. So, if you've got the skills and passion, we want to hear from you!</p>
+                <a href="#" class="hero__btn">Who we are
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </a>
+            </div>
+            <img class="card__image" src="assets/images/brands.png" alt="card_image">
+        </div>
+
+        
+        <!-- 2º Card -->
+        <div class="card__2 card">
+            <img class="card__image" src="assets/images/group.jpeg" alt="card_image">
+            <div class="card__text">
+                <h1>Collaborate, innovate and be proud</h1>
+                <p>We want every member of staff to be happy, healthy and successful with us. This is the case whether they're in our office or working from home (which we've all been doing throughout the COVID-19 pandemic). Get ready to be true to yourself, to support your teammates, to think beyond the limits of what's been done before and to give things your best shot. Our staff are at the heart of everything we do, so we'll support you at every step of your GoCo journey.</p>
+                <a href="#" class="hero__btn">#Life at GoCo
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- 3º Card -->
+        <div class="card__3 card">
+            <div class="card__text">
+                <h1>Grow your GoCo career</h1>
+                <p>We don't sit still, so neither should you have to. We strive to help our staff further their careers, find enjoyment in what they do and upskill their abilities. If you're interested in embetterment through things like on-the-job degree programmes, mentorship sessions, career change schemes and personal development plans, you'll love what we have to offer.</p>
+                <a href="#" class="hero__btn">Employee journeys
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </a>
+            </div>
+            
+            <!-- This is the image for card 3 for small screens. I have removed the text here as it is not feasable for small screen sizes -->
+            <img class="card__small-screen--image" src="assets/images/emma.jpeg" alt="card_image">
+
+            <!-- This is the Card 3 image with the text for bigger screens -->
+            <div class="card__3image card__image">
+                <div class="image-emma__text--container">
+                    <h2>Follow Emma's journey to finding her place at GoCo</h2>
+                    <a href="#" class="hero__btn">Read Emma's story
+                          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+ 
+        <!-- Glassdoor -->
+        <div class="card__glassdoor">
+            <img src="assets/images/glassdoor_logotype.png" alt="glassdoor_image">
+            <h1>"Dynamic, industry-leading environment with great benefits"</h1>
+            <p>Former Employee, Content Specialist in Newport,Wales</p>
+            <p id="small-text">A selected review from Glassdoor, October 2020.</p>
+            <a href="#" class="hero__btn glassdoor__btn">More Reviews
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <!-- Alex image and text. It is not shown for very small screens and appear on breakpoint 576px -->
+        <div class="alex__image--container">
+            <div class="alex__text">
+                <h3>"We support our people not only through their professional development but also with their work-life balance, health and wellbeing."
+                    <br>
+                    <br>
+                    Alex Currie
+                </h3>
+                <p>Chief People Officer</p>
+            </div>
+        </div>
+
+        <!-- Cards options with links -->
+        <div class="card__links--container">
+            <div class="card__link">
+                <h2>Find out what's in it for you</h2>
+                <a href="#" class="hero__btn">Find out more
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="card__link">
+                <h2>Thinking about applying for a job?</h2>
+                <a href="#" class="hero__btn">Search Jobs
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+  
+        <!-- Text for agencies -->
+        <div class="bottom__text">
+            <h2>We hire our talent directly. No recruitment agencies, sorry.</h2>
+        </div>
+
+    </main>
+
+<!--===== FOOTER =====-->
+    <footer>
+        <div>
+            <div class="footer__text">
+                <p>Copyright (C) 2020 Gocompare.com Limited All Rights Reserved</p>
+                <p>Gocompare.com Limited is registered in England and Wales (Company No. 5799376).</p>
+                <p>Registered office: Imperial House, Imperial Way, Newport, Gwent, NP10 8UH, United Kingdom</p>
+                <p><a href="#" class="footer__link">Modern Slavery Statement</a></p>
+                <p><a href="#" class="footer__link">Cookie Policy</a></p>
+                <p><a href="#" class="footer__link">Terms and Conditions</a></p>
+            </div>
+
+            <div class="footer__text--2">
+                <div>
+                    <a href="#" class="privacy__policy">Privacy Policy</a>
+                    <a href="#" class="fa fa-linkedin linkedin-style" aria-hidden="true"></a>
+                </div>
+                <a href="#" class="powered__by">Powered by Pinpoint</a>
+            </div>
+        </div>
+    </footer>
+
+<!-- JavaScript file -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
+
+        
