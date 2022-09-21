@@ -1,4 +1,4 @@
-# GoCo: Responsive Recruiter Company Landing Page 
+# GoCo: Responsive Careers Page Landing Page 
 A technical test for a frontend developer role.
 
 ## Getting Started 🚀
