@@ -1,11 +1,10 @@
-# GoCo Website
-A technical test as a frontend developer.
+# GoCo: A Responsive Recruiter Company Landing Page 
+A technical test for a frontend developer role.
 
 ## Getting Started 🚀
 Please you can have a look just here: https://mpgc.github.io/GoCo-Website-Task/
 
-###  Responsive Recruiter Company Landing Page 
-
+## Description ✒️
 - Responsive Recruiter Company Page Using HTML CSS & JavaScript
 - Contains animations when scrolling.
 - Includes a dark and light mode.
