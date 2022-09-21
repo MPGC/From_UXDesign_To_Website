@@ -12,7 +12,7 @@ Please you can have a look just here: https://mpgc.github.io/GoCo-Website-Task/
 - Developed first with the Mobile First methodology, then for desktop.
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
-*There are some issues I am working on.
+*There are some improvements to be made, I'm working on it. 
 
 ## Built with 🛠️
 
