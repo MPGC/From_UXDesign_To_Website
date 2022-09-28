@@ -25,7 +25,7 @@ I have used several tools such as:
 
 My contact info:
 
-[@mpgcuartero](https://www.linkedin.com/in/mpgcuartero/)
+[@mpgcuartero](https://www.linkedin.com/in/mpgc/)
 
 
 ## License 📄
