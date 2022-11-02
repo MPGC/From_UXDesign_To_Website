@@ -1,5 +1,5 @@
-# GoCo: Responsive Careers Page Landing Page 
-A technical test for a frontend developer role.
+# Responsive Careers Page Landing Page 
+From UX prototype to a real website. I used my HTML/CSS and JavaScript skills for this task.
 
 ## Getting Started 🚀
 Please you can have a look just here: https://mpgc.github.io/From_UXDesign_To_Website/
