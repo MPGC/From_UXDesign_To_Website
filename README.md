@@ -2,7 +2,7 @@
 A technical test for a frontend developer role.
 
 ## Getting Started 🚀
-Please you can have a look just here: https://mpgc.github.io/GoCo-Website-Task/
+Please you can have a look just here: https://mpgc.github.io/From_UXDesign_To_Website/
 
 ## Description ✒️
 - Responsive Recruiter Company Page Using HTML CSS & JavaScript
